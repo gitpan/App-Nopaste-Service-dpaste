@@ -4,7 +4,7 @@
       "Sergey Romanov <sromanov@cpan.org>"
    ],
    "dynamic_config" : 1,
-   "generated_by" : "ExtUtils::MakeMaker version 6.66, CPAN::Meta::Converter version 2.131560",
+   "generated_by" : "ExtUtils::MakeMaker version 6.96, CPAN::Meta::Converter version 2.141170",
    "license" : [
       "artistic_2"
    ],
@@ -29,7 +29,8 @@
       },
       "runtime" : {
          "requires" : {
-            "App::Nopaste" : "0.91"
+            "App::Nopaste" : "0.91",
+            "JSON" : "0"
          }
       }
    },
@@ -42,10 +43,10 @@
          "http://dev.perl.org/licenses/"
       ],
       "repository" : {
-         "url" : "http://github.com/sergeyromanov/app-nopaste-service-dpaste"
+         "url" : "https://github.com/sergeyromanov/app-nopaste-service-dpaste"
       }
    },
-   "version" : "0.02",
+   "version" : "0.03",
    "x_test_requires" : {
       "Test::More" : "0.47"
    }
